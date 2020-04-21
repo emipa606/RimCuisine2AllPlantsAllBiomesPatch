@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimCuisine 2: All Plants All Biomes Patch (Continued)</name>
+  <author>Crustypeanut</author>
+  <packageId>Crustypeanut.RC2.APABP</packageId>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Crustypeanut.RC2.Core</packageId>
+      <displayName>RimCuisine 2 Core</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1833592062</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Crustypeanut.RC2.MaME</li>
+    <li>Crustypeanut.RC2.BaBE</li>
+    <li>Crustypeanut.RC2.SaSE</li>
+    <li>Crustypeanut.RC2.Core</li>
+  </loadAfter>
+  <description>Update of Crustypeanuts mod for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=1839071307
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
+
+Support-chat:
+https://invite.gg/mlie
+
+Non-steam version:
+https://github.com/emipa606/RimCuisine2AllPlantsAllBiomesPatch
+	
+--- Original Description ---
+This optional patch throws balance out the window and lets you grow any plant in any biome! You want sugarcane in a tundra? Aight! Juniper Berries in the middle of the desert? Sure! Grapes in a tropical swamp? I don't think I'd want to try the wine that came out of that but okay!
+
+Completely removes all biome restrictions for all new plants, including those added in the Smokes and Shrooms expansion, as well as the fruit trees.
+
+However, I would like to state that the main mod is balanced for the biome restrictions, so this might make the game a little bit easier, especially if you can have your coffee wherever you want it. Not that its a huge change, considering the agricultural traders frequently bring exotic goods anyways.
+
+Enjoy!
+
+-------------------------------------------------------------
+
+On Installation
+
+Make sure you put this mod AFTER all of the other RimCuisine 2 mods, including future ones that add new crops (of which I only plan on one right now but who knows!)
+
+Should work fine adding it mid-game :D
+
+------------------------------------------------------------</description>
+</ModMetaData>
