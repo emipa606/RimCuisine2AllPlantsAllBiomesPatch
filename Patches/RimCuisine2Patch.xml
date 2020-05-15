@@ -83,28 +83,37 @@
       </li>
     </operations>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>[1.0] RimCuisine 2: Smokes and Shrooms Expansion</li>
-    </mods>
-    <match Class="PatchOperationRemove">
-      <xpath>Defs/ThingDef[defName = "RC2_PlantDreamflower"]/plant/mustBeWildToSow</xpath>
-    </match>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantDreamflower"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantDreamflower"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>[1.0] RimCuisine 2: Smokes and Shrooms Expansion</li>
-    </mods>
-    <match Class="PatchOperationRemove">
-      <xpath>Defs/ThingDef[defName = "RC2_PlantTobacco"]/plant/mustBeWildToSow</xpath>
-    </match>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantTobacco"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantTobacco"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
   </Operation>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>[1.0] RimCuisine 2: Smokes and Shrooms Expansion</li>
-    </mods>
-    <match Class="PatchOperationRemove">
-      <xpath>Defs/ThingDef[defName = "RC2_PlantShrooms"]/plant/mustBeWildToSow</xpath>
-    </match>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantShrooms"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantShrooms"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
   </Operation>
 </Patch>
