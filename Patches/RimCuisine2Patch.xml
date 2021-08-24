@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantOats"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantChickpeas"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantCarrot"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantBeet"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantSnapPeas"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantCucumber"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantSugarBeet"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantCoffee"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantTea"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantMelon"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantSorghum"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantTomato"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantYam"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantAsparagus"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantEggPlant"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantAgave"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantPumpkin"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantSugarcane"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantQuinoa"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantSoybean"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantPepper"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantGrapes"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantCactusFruit"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantJuniper"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName = "RC2_PlantPineapple"]/plant/mustBeWildToSow</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[@Name = "RC2_FruitTreeBase"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantDreamflower"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantDreamflower"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantTobacco"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantTobacco"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantShrooms"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RC2_PlantShrooms"]/plant/mustBeWildToSow</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

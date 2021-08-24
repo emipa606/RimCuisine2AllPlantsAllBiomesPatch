@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimCuisine 2: All Plants All Biomes Patch (Continued)</name>
+  <author>Crustypeanut</author>
+  <packageId>Crustypeanut.RC2.APABP</packageId>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Crustypeanut.RC2.Core</packageId>
+      <displayName>RimCuisine 2 Core</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2562519366</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Crustypeanut.RC2.MaME</li>
+    <li>Crustypeanut.RC2.BaBE</li>
+    <li>Crustypeanut.RC2.SaSE</li>
+    <li>Crustypeanut.RC2.Core</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Crustypeanuts mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1839071307
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/RimCuisine2AllPlantsAllBiomesPatch][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+This [b]optional[/b] patch throws balance out the window and lets you grow any plant in any biome! You want sugarcane in a tundra? Aight! Juniper Berries in the middle of the desert? Sure! Grapes in a tropical swamp? I don't think I'd want to try the wine that came out of that but okay!
+
+Completely removes all biome restrictions for all new plants, including those added in the [b]Smokes and Shrooms[/b] expansion, as well as the fruit trees. 
+
+However, I would like to state that the main mod is balanced for the biome restrictions, so this might make the game a little bit easier, especially if you can have your coffee wherever you want it.  Not that its a huge change, considering the agricultural traders frequently bring exotic goods anyways.
+
+Enjoy!
+
+-------------------------------------------------------------
+
+[b]On Installation[/b]
+
+Make sure you put this mod [B]AFTER[/B] all of the other RimCuisine 2 mods, including future ones that add new crops (of which I only plan on one right now but who knows!)
+
+Should work fine adding it mid-game :D
+
+------------------------------------------------------------
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+
